@@ -1,13 +1,19 @@
+const quoteContainer = document.getElementById('quote-container');
+const quoteText = document.getElementById('quote');
+const authorText = document.getElementById('author');
+const twitterBtn = document.getElementById('twitter');
+const newQuoteBtn = document.getElementById('new-quote');
+
 let apiQuotes = [];
 
-function getRandomQuoteFromApi(){
+function getRandomQuoteFromApi() {
     const quote = apiQuotes[getRandomNumberUpTo(apiQuotes.length)];
-    console.log(quote);
+    displayQuote(quote);
 }
 
-function getRandomQuoteFromLocalFile(){
+function getRandomQuoteFromLocalFile() {
     const quote = localQuotes[getRandomNumberUpTo(localQuotes.length)];
-    console.log(quote);
+    displayQuote(quote);
 }
 
 async function getQuotesFromApi() {
@@ -24,8 +30,31 @@ async function getQuotesFromApi() {
     }
 }
 
+function tweetQuote() {
+    const twitterUrl = `https://twitter.com/intent/tweet?text=${quoteText.textContent} - ${authorText.textContent}`;
+    window.open(twitterUrl, '_blank');
+}
+
+newQuoteBtn.addEventListener('click', getRandomQuoteFromApi);
+twitterBtn.addEventListener('click', tweetQuote);
+
 getQuotesFromApi();
 
 function getRandomNumberUpTo(maxNumber) {
     return Math.floor(Math.random() * maxNumber)
+}
+
+function displayQuote(quote) {
+    authorText.textContent = quote.author;
+    quoteText.textContent = quote.text;
+
+    if (!quote.author) {
+        authorText.textContent = 'Unkown';
+    }
+
+    if (quote.text.length > 120) {
+        quoteText.classList.add('long-quote');
+    } else {
+        quoteText.classList.remove('long-quote');
+    }
 }
