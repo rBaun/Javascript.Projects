@@ -1,3 +1,4 @@
+/* HTML Elements */
 const quoteContainer = document.getElementById('quote-container');
 const quoteText = document.getElementById('quote');
 const authorText = document.getElementById('author');
@@ -5,32 +6,33 @@ const twitterBtn = document.getElementById('twitter');
 const newQuoteBtn = document.getElementById('new-quote');
 const loadSpinner = document.getElementById('load-spinner');
 
+/* Global Variables */
 let apiQuotes = [];
 
-function startLoading() {
-    loadSpinner.hidden = false;
-    quoteContainer.hidden = true;
-}
-
-function finishLoading() {
-    quoteContainer.hidden = false;
-    loadSpinner.hidden = true;
+function toggleLoadingWheel(toggleOn){
+    if(toggleOn){
+        loadSpinner.hidden = false;
+        quoteContainer.hidden = true;
+    } else {
+        quoteContainer.hidden = false;
+        loadSpinner.hidden = true;
+    }
 }
 
 function getRandomQuoteFromApi() {
-    startLoading();
+    toggleLoadingWheel(true);
     const quote = apiQuotes[getRandomNumberUpTo(apiQuotes.length)];
     displayQuote(quote);
 }
 
 function getRandomQuoteFromLocalFile() {
-    startLoading();
+    toggleLoadingWheel(true);
     const quote = localQuotes[getRandomNumberUpTo(localQuotes.length)];
     displayQuote(quote);
 }
 
 async function getQuotesFromApi() {
-    startLoading();
+    toggleLoadingWheel(true);
     const apiUrl = 'https://type.fit/api/quotes';
     try {
         const response = await fetch(apiUrl);
@@ -71,5 +73,5 @@ function displayQuote(quote) {
     } else {
         quoteText.classList.remove('long-quote');
     }
-    finishLoading();
+    toggleLoadingWheel(false);
 }
