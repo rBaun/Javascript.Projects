@@ -1,14 +1,17 @@
-# Quote Generator
-A simple project part of the JavaScript projects. 
-Every JavaScript project in this series will have a goal to learn and implement some relevant theory.
-The goal of this project is to access an API and display the data on the page. Below is shown the different features and the theory implemented.
+## Quote Generator
+This project is made to demonstrate how to fetch data from external sources. 
+This is one of the most popular things in modern web applications, hence the need for a project made for reference purposes.
 
-## Features
+This project fetches data from [Type Fit API](https://type.fit/api/quotes). 
+The source contains a quote and the author who made it, which is going to be displayed on the page.
+
+### Features
 * Display a random Quote
+  * Fetch from local file, if API request throws error
 * Get new quote from 1600+ different quotes
 * Tweet the quote. (Requires you to be logged in on twitter)
 
-## Theory
+### Theory
 * Manipulate DOM with JavaScript
 * Loading Wheel with CSS and JavaScript
 * Fetching data async with JavaScript
