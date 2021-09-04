@@ -1,5 +1,5 @@
 # JavaScript Projects
-This repository contains minor JavaScript projects inspired by modern and popular implementations I discover over time.
+This repository contains minor JavaScript projects inspired by modern and popular implementations in the web development community, that I discover during my time as a developer.
 
 The projects is going to be created on-the-go, but so far the list is as follows:
 * [Quote Generator](#quote-generator)
