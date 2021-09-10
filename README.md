@@ -40,3 +40,4 @@ The goal is to fetch photos at random and show them on the page, while loading m
 ### Theory
 * API Authentication (API Keys)
 * Create and nest HTML Elements with JavaScript
+* JavaScript Scroll Event
