@@ -33,5 +33,7 @@ This project fetches data from [Unsplash API](https://unsplash.com/documentation
 The goal is to fetch photos at random and show them on the page, while loading more photos with the infinite scroll concept.
 
 ### Features
+* Fetch images from Unsplash
+* Infinite Scrolling
+* Responsive Layout
 
-### Theory
