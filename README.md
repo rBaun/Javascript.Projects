@@ -18,12 +18,6 @@ The source contains a quote and the author who made it, which is going to be dis
 * Get new quote from 1600+ different quotes
 * Tweet the quote. (Requires you to be logged in on twitter)
 
-### Theory
-* Manipulate DOM with JavaScript
-* Loading Wheel with CSS and JavaScript
-* Fetching data async with JavaScript
-* Simplistic styling and HTML Elements
-
 ## Infinity Scroll
 This project is made for the purpose of mimicing the infinite scroll, most popular known from social media. 
 The idea is you load the content, before you reach the bottom of the page, making it feel like infinite scrolling.
@@ -37,7 +31,12 @@ The goal is to fetch photos at random and show them on the page, while loading m
 * Infinite Scrolling
 * Responsive Layout
 
-### Theory
-* API Authentication (API Keys)
-* Create and nest HTML Elements with JavaScript
-* JavaScript Scroll Event
+## Picture in Picture Mode
+This project is inspired by Youtube. When watching a youtube video and going to the frontpage, the video is displayed and running in the bottom corner of your screen. This might not be a popular feature, but I thought this would be a useful feature, when working with a single monitor. Besides, I think it would be cool to implement.
+
+Doing a bit of research, lead me to the [Screen Capture API](), which is pretty simple and straightforward. It's sole purpose is to stream a selected part of your screen.
+
+### Features
+* Select a screen to share
+* Display a "Picture in Picture"
+* Supports dragging the picture around
