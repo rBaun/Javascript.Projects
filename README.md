@@ -4,6 +4,7 @@ This repository contains minor JavaScript projects inspired by modern and popula
 The projects is going to be created on-the-go, but so far the list is as follows:
 * [Quote Generator](#quote-generator)
 * [Infinity Scroll](#infinity-scroll)
+* [Picture-in-Picture](#picture-in-picture-mode)
 
 ## Quote Generator
 This project is made to demonstrate how to fetch data from external sources. 
@@ -32,11 +33,14 @@ The goal is to fetch photos at random and show them on the page, while loading m
 * Responsive Layout
 
 ## Picture in Picture Mode
-This project is inspired by Youtube. When watching a youtube video and going to the frontpage, the video is displayed and running in the bottom corner of your screen. This might not be a popular feature, but I thought this would be a useful feature, when working with a single monitor. Besides, I think it would be cool to implement.
+This project is inspired by Youtube. When watching a youtube video, you can get a video in the bottom corner and continue browsing. This project makes it possible to display whatever you want it to. It can be a message window, netflix, music or anything else you would like. Now, that's sounds pretty cool to me.
 
-Doing a bit of research, lead me to the [Screen Capture API](), which is pretty simple and straightforward. It's sole purpose is to stream a selected part of your screen.
+Doing a bit of research, lead me to the [Screen Capture API](https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API), which is pretty simple and straightforward. It's sole purpose is to stream a selected part of your screen.
 
 ### Features
-* Select a screen to share
-* Display a "Picture in Picture"
-* Supports dragging the picture around
+* Display a Picture-in-Picture Screen
+* Select what you want to Share
+  * Entire Screen / Application / a tab in chrome
+  * The same as Sharing on Discord/Teams
+* Display a "Picture in Picture" in bottom corner
+* Ability to drag it around
