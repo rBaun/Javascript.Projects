@@ -1,8 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 html {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+#startBtn {
+    cursor: pointer;
+    outline: none;
+    width: 120px;
+    height: 75px;
+    font-family: Montserrat;
+    font-size: 25px;
+    background-color:rgba(25, 255, 25, 0.7);
+    border-radius: 7px;
+    color: white;
+    font-weight: bolder;
+}
+
+#startBtn:hover {
+    color: red;
 }

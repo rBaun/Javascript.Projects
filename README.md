@@ -1,5 +1,5 @@
 # JavaScript Projects
-This repository contains minor JavaScript projects inspired by modern and popular implementations in the web development community, that I discover during my time as a developer.
+This repository contains minor JavaScript projects inspired by modern and popular implementations in the web development community, that I discover during my time as a developer. The goal is to gain better understanding of the frontend, with the purpose of coming closer to the title of FullStack Developer.
 
 The projects is going to be created on-the-go, but so far the list is as follows:
 * [Quote Generator](#quote-generator)
@@ -35,7 +35,7 @@ The goal is to fetch photos at random and show them on the page, while loading m
 ## Picture in Picture Mode
 This project is inspired by Youtube. When watching a youtube video, you can get a video in the bottom corner and continue browsing. This project makes it possible to display whatever you want it to. It can be a message window, netflix, music or anything else you would like. Now, that's sounds pretty cool to me.
 
-Doing a bit of research, lead me to the [Screen Capture API](https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API), which is pretty simple and straightforward. It's sole purpose is to stream a selected part of your screen.
+Doing a bit of [research](https://css-tricks.com/an-introduction-to-the-picture-in-picture-web-api/), lead me to the [Screen Capture API](https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API), which is pretty simple and straightforward. It's sole purpose is to stream a selected part of your screen.
 
 ### Features
 * Display a Picture-in-Picture Screen
