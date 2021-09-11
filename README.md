@@ -5,6 +5,7 @@ The projects is going to be created on-the-go, but so far the list is as follows
 * [Quote Generator](#quote-generator)
 * [Infinity Scroll](#infinity-scroll)
 * [Picture-in-Picture](#picture-in-picture-mode)
+* [TTS Joking Robot](#tts-joking-robot)
 
 ## Quote Generator
 This project is made to demonstrate how to fetch data from external sources. 
@@ -44,3 +45,14 @@ Doing a bit of [research](https://css-tricks.com/an-introduction-to-the-picture-
   * The same as Sharing on Discord/Teams
 * Display a "Picture in Picture" in bottom corner
 * Ability to drag it around
+
+## TTS Joking Robot
+This project will utilize text to speech by having a virtual robot telling you a joke, just like Siri is able to, if asked. I have always been fascinated by TTS and now I finally get to try and implement it on my own!
+
+The jokes will be generated as text from [Joke API](https://api.chucknorris.io/) and using [Text to Speech API](http://www.voicerss.org/) to make the robot speak. 
+
+### Features
+* Robot Animation
+  * Made by [Jonas Bødtker](https://giphy.com/gifs/beer-robot-jonasbodtker-1ZDDyAaAA82ywDiyKs)
+* Tell a Joke on command
+* Text to Speech
