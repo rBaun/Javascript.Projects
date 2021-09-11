@@ -20,3 +20,48 @@ body {
     background-position: left center;
     background-repeat: no-repeat;
 }
+
+#tellJokeButton {
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #92FAD1;
+    background: #A5A3AF;
+    border: 2px solid #EBD675;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.25);
+}
+
+#tellJokeButton:hover {
+    border: 2px solid #92FAD1;
+}
+
+#tellJokeButton:active {
+    transform: scale(0.98);
+}
+
+#tellJokeButton:disabled {
+    cursor: default;
+    filter: brightness(50%);
+    box-shadow: none;
+}
+
+#tellJokeButton:hover:disabled {
+    border: 2px solid #EBD675;
+}
+
+/* Media Query: Tablet or smaller */
+@media screen and (max-width: 1000px) {
+    .container {
+        background-position: center;
+        background-size: cover;
+    }
+
+    #tellJokeButton {
+        margin-top: 250px;
+        box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.5);
+    }
+}
