@@ -6,6 +6,7 @@ The projects is going to be created on-the-go, but so far the list is as follows
 * [Infinity Scroll](#infinity-scroll)
 * [Picture-in-Picture](#picture-in-picture-mode)
 * [TTS Joking Robot](#tts-joking-robot)
+* [Theme Toggler](#theme-toggler)
 
 ## Quote Generator
 This project is made to demonstrate how to fetch data from external sources. 
@@ -56,3 +57,13 @@ The jokes will be generated as text from [Joke API](https://api.chucknorris.io/)
   * Made by [Jonas Bødtker](https://giphy.com/gifs/beer-robot-jonasbodtker-1ZDDyAaAA82ywDiyKs)
 * Tell a Joke on command
 * Text to Speech
+
+## Theme Toggler
+In this project I will be exploring how to implement a dark and light mode, which is something I've stumbled upon in many sites. I thought it would be a good idea to try and implement it for myself.
+
+I will be using LocalStorage in this project to save the choice of light or dark mode. This will result in a better user experience, since they will not have to toggle it every time they visit.
+
+### Features
+* Toggle between Dark & Light Theme
+* Smooth navigation scrolling
+* Persistence with LocalStorage
