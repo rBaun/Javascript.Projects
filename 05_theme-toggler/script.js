@@ -31,10 +31,23 @@ function onDarkModeSelected() {
 }
 
 function onToggleTheme(event) {
-    if(event.target.checked)
+    if(event.target.checked) {
+        localStorage.setItem('theme', 'dark');
         onDarkModeSelected();
-    else
+    }
+    else {
+        localStorage.setItem('theme', 'light');
         onLightModeSelected();
+    }
 }
 
 toggleSwitch.addEventListener('change', onToggleTheme);
+
+const currentTheme = localStorage.getItem('theme');
+if(currentTheme === 'light') {
+    onLightModeSelected();
+}
+if(currentTheme === 'dark') {
+    toggleSwitch.checked = true;
+    onDarkModeSelected();
+}
