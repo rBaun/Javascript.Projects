@@ -1,7 +1,7 @@
 # JavaScript Projects
-This repository is a collection of minor JavaScript projects, inspired by modern and popular web designs. Every project contains a short description, presenting the goal for the project and the resources used. The overall goal for is to become a better frontend developer, in the pursuit of becoming a FullStack Developer.
+This repository is a collection of minor JavaScript projects, inspired by modern and popular web designs. Every project contains a short description, presenting the goal for the project and the resources used. The overall goal is to improve as a frontend developer, in the pursuit of becoming a FullStack Developer.
 
-The goal of the project is to gather a collectino of small projects with specific features, making it easy to understand and implement in any project. For that reason, every project also contains a bulletin list of features.
+The goal of the project is to gather a collection of small projects with specific features, making it easy to understand and implement in any project. For that reason, every project also contains a bulletin list of features.
 
 Projects created so far, ordered by first to last:
 * [Quote Generator](#quote-generator)
@@ -61,7 +61,7 @@ The jokes will be generated as text from [Joke API](https://api.chucknorris.io/)
 * Text to Speech
 
 ## Theme Toggler
-In this project I will be exploring how to implement a dark and light mode, which is something I've stumbled upon in many sites. I thought it would be a good idea to try and implement it for myself. [This](https://blog.prototypr.io/how-to-design-a-dark-theme-for-your-android-app-3daeb264637) article describes the Material Guidelines released by Google, which the project is inspired by.
+In this project I will be exploring how to implement a dark and light mode, which is something I've stumbled upon in many sites. I thought it would be a good idea to try and implement it for myself. [This](https://blog.prototypr.io/how-to-design-a-dark-theme-for-your-android-app-3daeb264637) article describes the Material Guidelines released by Google, which the project is inspired by when it comes to choosing the colors. [Hero Patterns](https://www.heropatterns.com/) is used for background and [unDraw](https://undraw.co/illustrations) is used for illustrations.
 
 I will be using LocalStorage in this project to save the choice of light or dark mode. This will result in a better user experience, since they will not have to toggle it every time they visit.
 
@@ -69,3 +69,4 @@ I will be using LocalStorage in this project to save the choice of light or dark
 * Toggle between Dark & Light Theme
 * Smooth navigation scrolling
 * Persistence with LocalStorage
+* Custom CSS Properties
