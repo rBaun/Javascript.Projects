@@ -5,25 +5,10 @@ The goal of the project is to gather a collectino of small projects with specifi
 
 Projects created so far, ordered by first to last:
 * [Quote Generator](#quote-generator)
-  * Display a Random Quote
-  * Get new quote from 1600+ different quotes
-  * Tweet the quote
 * [Infinity Scroll](#infinity-scroll)
-  * Fetch Images from Unsplash
-  * Infinite Scrolling
-  * Responsive Layout
 * [Picture-in-Picture](#picture-in-picture-mode)
-  * Display a Picture-in-Picture Screen
-  * Select what you want to Share
-  * Draggable window in bottom corner
 * [TTS Joking Robot](#tts-joking-robot)
-  * Robot Animation
-  * Tell Joke on Command
-  * Text to Speech
 * [Theme Toggler](#theme-toggler)
-  * Dark & Light Theme
-  * Smooth Navigation Scrolling
-  * Persistence with LocalStorage
 
 ## Quote Generator
 This project is made to demonstrate how to fetch data from external sources. 
