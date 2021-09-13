@@ -1,12 +1,29 @@
 # JavaScript Projects
-This repository contains minor JavaScript projects inspired by modern and popular implementations in the web development community, that I discover during my time as a developer. The goal is to gain better understanding of the frontend, with the purpose of coming closer to the title of FullStack Developer.
+This repository is a collection of minor JavaScript projects, inspired by modern and popular web designs. Every project contains a short description, presenting the goal for the project and the resources used. The overall goal for is to become a better frontend developer, in the pursuit of becoming a FullStack Developer.
 
-The projects is going to be created on-the-go, but so far the list is as follows:
+The goal of the project is to gather a collectino of small projects with specific features, making it easy to understand and implement in any project. For that reason, every project also contains a bulletin list of features.
+
+Projects created so far, ordered by first to last:
 * [Quote Generator](#quote-generator)
+  * Display a Random Quote
+  * Get new quote from 1600+ different quotes
+  * Tweet the quote
 * [Infinity Scroll](#infinity-scroll)
+  * Fetch Images from Unsplash
+  * Infinite Scrolling
+  * Responsive Layout
 * [Picture-in-Picture](#picture-in-picture-mode)
+  * Display a Picture-in-Picture Screen
+  * Select what you want to Share
+  * Draggable window in bottom corner
 * [TTS Joking Robot](#tts-joking-robot)
+  * Robot Animation
+  * Tell Joke on Command
+  * Text to Speech
 * [Theme Toggler](#theme-toggler)
+  * Dark & Light Theme
+  * Smooth Navigation Scrolling
+  * Persistence with LocalStorage
 
 ## Quote Generator
 This project is made to demonstrate how to fetch data from external sources. 
@@ -19,7 +36,7 @@ The source contains a quote and the author who made it, which is going to be dis
 * Display a random Quote
   * Fetch from local file, if API request throws error
 * Get new quote from 1600+ different quotes
-* Tweet the quote. (Requires you to be logged in on twitter)
+* Tweet the quote
 
 ## Infinity Scroll
 This project is made for the purpose of mimicing the infinite scroll, most popular known from social media. 
@@ -59,7 +76,7 @@ The jokes will be generated as text from [Joke API](https://api.chucknorris.io/)
 * Text to Speech
 
 ## Theme Toggler
-In this project I will be exploring how to implement a dark and light mode, which is something I've stumbled upon in many sites. I thought it would be a good idea to try and implement it for myself.
+In this project I will be exploring how to implement a dark and light mode, which is something I've stumbled upon in many sites. I thought it would be a good idea to try and implement it for myself. [This](https://blog.prototypr.io/how-to-design-a-dark-theme-for-your-android-app-3daeb264637) article describes the Material Guidelines released by Google, which the project is inspired by.
 
 I will be using LocalStorage in this project to save the choice of light or dark mode. This will result in a better user experience, since they will not have to toggle it every time they visit.
 
