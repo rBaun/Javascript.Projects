@@ -1,2 +1,26 @@
 @import 'shared/variables.css';
 @import 'shared/navbar.css';
+@import 'shared/collection.css';
+@import 'shared/buttons.css';
+
+:root {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    color: var(--color-text-light);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right,
+        var(--color-background-dark),
+        var(--color-background-light));
+}
+
+main {
+    margin-bottom: 5vh;
+}

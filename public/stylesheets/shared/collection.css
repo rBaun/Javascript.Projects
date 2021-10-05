@@ -1,0 +1,23 @@
+.project-grid {
+    display: grid;
+    justify-content: center;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fill, 500px);
+}
+
+.project-card {
+    width: 500px;
+    height: calc(580px / 0.95);
+    background-color: var(--color-base-hue);
+    box-shadow: 2px 10px 27px 0px rgba(0, 0, 0, 0.75);
+}
+
+.project-image {
+    width: 500px;
+    height: 400px;
+}
+
+.project-title {
+    text-align: center;
+    color: whitesmoke;
+}

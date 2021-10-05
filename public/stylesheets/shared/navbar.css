@@ -13,7 +13,7 @@
 }
 
 .navbar-title {
-    color: var();
+    color: var(--color-text-light);
     text-decoration: none;
     font-size: var(--nav-title-font-size);
     font-weight: var(--nav-title-font-weight);
@@ -31,7 +31,12 @@
 
 .navbar li a {
     text-decoration: none;
-    color: var();
+    color: var(--color-text-light);
     font-weight: var(--nav-link-font-weight);
     padding: 1rem;
+}
+
+.navbar-title:hover,
+.navbar li a:hover {
+    color: whitesmoke;
 }
